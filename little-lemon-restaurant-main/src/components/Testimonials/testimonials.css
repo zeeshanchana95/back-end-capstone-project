@@ -1,0 +1,29 @@
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.testimonials-title{
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 50px;
+    color: #333333;
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+@media screen and (min-width: 571px) and (max-width: 1030px){
+    .testimonials{
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 570px){
+    .testimonials{
+        gap: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+.form-wrapper{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.form-container{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 16px;
+    background: #495e57;
+}
+.form-input{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-input input, select{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 6px;
+}
